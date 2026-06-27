@@ -85,3 +85,15 @@ Copy the prompt below and paste it into ChatGPT, Claude, Gemini, or any advanced
 > - **Module 3: Data Foundation (Excel)** (Pivot Tables, VLOOKUP/XLOOKUP, Data Validation)
 > - **Module 4: The Presentation (Power BI)** (Connecting Excel data, choosing KPI visuals & charts)
 
+### Reference Case Study & Model Answers
+
+As you progress through the modules, refer to these industry-standard model answers for our **Agritech Solutions Dashboard** case study:
+
+#### **Module 1: BRD & FRD (Model Answer)**
+- **Business Requirement (BR-001):** The business requires a real-time tracking system to monitor the shelf-life of all agricultural inventory (e.g., seeds, liquid fertilizers).
+  - *Value/Impact:* To prevent the distribution of expired goods and reduce inventory spoilage costs by 15% this fiscal year.
+- **Functional Requirement (FR-001 - mapped to BR-001):** The dashboard system shall automatically calculate the days remaining until expiry for each product batch based on the "Date of Manufacture" data feed.
+  - *System Behavior:* When a batch of fertilizer drops to exactly 30 days before its expiration date, the system must highlight that row in **RED** on the dashboard and trigger an automated email alert to the Regional Warehouse Manager.
+  - *Data Dependencies:* Connection to the central inventory database.
+
+
