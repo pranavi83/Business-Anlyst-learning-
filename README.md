@@ -96,4 +96,11 @@ As you progress through the modules, refer to these industry-standard model answ
   - *System Behavior:* When a batch of fertilizer drops to exactly 30 days before its expiration date, the system must highlight that row in **RED** on the dashboard and trigger an automated email alert to the Regional Warehouse Manager.
   - *Data Dependencies:* Connection to the central inventory database.
 
+#### **Module 2: Agile & Jira (Model Answer)**
+- **User Story (US-001 - mapped to FR-001):**
+  - *As a:* Regional Warehouse Manager,
+  - *I want:* The dashboard system to visually highlight expiring inventory batches in red and send me an automated email alert when they are exactly 30 days away from expiration,
+  - *So that:* I can prioritize shipping these products to nearby farms or run promotions to sell them before they expire, minimizing inventory spoilage costs.
+
+
 
