@@ -38,13 +38,22 @@ A No-Theory Senior Business Analyst mentoring platform designed to elevate a tec
    npm install
    \`\`\`
 
-3. **Run the development server:**
+3. **Run the development server (CRITICAL STEP):**
+   > [!IMPORTANT]
+   > You MUST run the development server for the website to be accessible! If you get a "Site can't be reached" error, it means you skipped this step or closed the terminal window.
    \`\`\`bash
    npm run dev
    \`\`\`
 
 4. **Access the application:**
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
+   Open [http://localhost:3000](http://localhost:3000) in your browser. Keep the terminal running in the background while you use the app.
+
+## Troubleshooting
+
+- **Site can't be reached on `localhost:3000`?** 
+  Make sure you have opened a terminal in the project folder and executed `npm run dev`. Do not close this terminal, otherwise the server will shut down.
+- **Missing dependencies?** 
+  Run `npm install` to ensure all packages (including animations and sql.js) are correctly installed.
 
 ## Suggested Next Features
 
